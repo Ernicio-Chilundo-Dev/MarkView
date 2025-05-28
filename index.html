@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Editor de Markdown</title>
+         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+         <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>Editor de Markdown</header>
+        <main class="container">
+            <section class="editor-pane">
+                <h2>Markdown</h2>
+                <textarea  id="markdown-input" placeholder="Escreva aqui..."></textarea>
+            </section>
+            
+            <section class="preview-pane">
+                <h2>Visualizacao</h2>
+                <div id="html-output"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 - Editor de Markdown facil com Javascript</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
